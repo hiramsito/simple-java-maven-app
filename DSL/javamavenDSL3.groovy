@@ -48,9 +48,6 @@ job('Java Maven App DSL 3') {
 
 job('Job test Hola Mundo') {
 	description('Aplicacion Hola Mundo de Prueba')
-	triggers {
-    		githubPush()
-    	}
 	steps {
 		shell('''
 			echo "Hola Mundo!!!"
